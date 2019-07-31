@@ -1,9 +1,9 @@
 {
-  "name": "com-dtech-plugins-ios-vibrate",
+  "name": "com.dtech.cordova.ios.vibrate",
   "version": "1.0.0",
   "description": "Native vibrations for iOS 10+",
   "cordova": {
-    "id": "com-dtech-plugins-ios-vibrate",
+    "id": "com.dtech.cordova.ios.vibrate",
     "platforms": [
       "ios"
     ]
