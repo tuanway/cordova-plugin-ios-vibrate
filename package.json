@@ -1,0 +1,18 @@
+{
+  "name": "com-dtech-plugins-ios-vibrate",
+  "version": "1.0.0",
+  "description": "Native vibrations for iOS 10+",
+  "cordova": {
+    "id": "com-dtech-plugins-ios-vibrate",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Claas Brüggemann",
+  "homepage": "https://github.com/ClaasBrueggemann/cordova-plugin-ios-vibrate",
+  "license": "MIT"
+}
