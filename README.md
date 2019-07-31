@@ -4,7 +4,7 @@
 
 Will only vibrate on iOS >= 10
 
-`cordova plugin add com-dtech-plugins-ios-vibrate`
+`cordova plugin add com.dtech.cordova.ios.vibrate`
 
 ## Usage
 
