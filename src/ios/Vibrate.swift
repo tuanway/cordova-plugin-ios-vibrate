@@ -18,9 +18,17 @@ import UIKit
         case "medium":
           UIImpactFeedbackGenerator(style: .medium).impactOccurred()
         case "rigid":
-          UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
+            if #available(iOS 13.0, *) {
+              UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
+            } else {
+              UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            }
         case "soft":
-          UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+            if #available(iOS 13.0, *) {
+              UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+            } else {
+              UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            }
         case "success":
           UINotificationFeedbackGenerator().notificationOccurred(.success)
         case "warning":
