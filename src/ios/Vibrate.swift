@@ -11,12 +11,16 @@ import UIKit
     if #available(iOS 10.0, *), msg.count > 0 {
 
       switch (msg) {
+        case "heavy":
+          UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
         case "light":
           UIImpactFeedbackGenerator(style: .light).impactOccurred()
         case "medium":
           UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-        case "heavy":
-          UIImpactFeedbackGenerator(style: .heavy).impactOccurred()
+        case "rigid":
+          UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
+        case "soft":
+          UIImpactFeedbackGenerator(style: .soft).impactOccurred()
         case "success":
           UINotificationFeedbackGenerator().notificationOccurred(.success)
         case "warning":
