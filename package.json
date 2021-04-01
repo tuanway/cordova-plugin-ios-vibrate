@@ -13,6 +13,6 @@
     "cordova-ios"
   ],
   "author": "Claas Brüggemann",
-  "homepage": "https://github.com/ClaasBrueggemann/cordova-plugin-ios-vibrate",
+  "homepage": "https://github.com/tuanway/cordova-plugin-ios-vibrate",
   "license": "MIT"
 }
